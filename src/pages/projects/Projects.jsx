@@ -1,9 +1,14 @@
 import React from 'react'
+import ButtonBack from '../../components/ButtonBack'
+import "./project.css"
 
 const Projects = () => {
       return (
-            <div>
-              <h1>Projects</h1>    
+            <div className='project-main'>
+                  <ButtonBack/>
+                  <div className='project'>
+                        <h1>Projects</h1>    
+                  </div>
             </div>
       )
 }

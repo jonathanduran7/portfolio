@@ -10,3 +10,9 @@
       text-decoration: none;
       color: #000;
 }
+
+.buttonBack{
+      position: absolute;
+      top: 15px;
+      left: 15px;
+}
