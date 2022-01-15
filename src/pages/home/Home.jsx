@@ -9,13 +9,13 @@ const Home = () => {
                   <p className='text-p'>My name is Jonathan Duran</p>
                   <div className="cards">
                         <div className="card-box">
-                              <Link to="projects">Projects</Link>
+                              <Link className='link'  to="projects">Projects</Link>
                         </div>
                         <div className="card-box">
-                              <Link to="about">About</Link>
+                              <Link className='link'  to="about">About</Link>
                         </div>
                         <div className="card-box">
-                              <Link to="contact">Contact</Link>
+                              <Link className='link'  to="contact">Contact</Link>
                         </div>
                   </div>
             </div>
