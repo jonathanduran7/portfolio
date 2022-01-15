@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const style = {
       border: {
@@ -20,11 +21,13 @@ const style = {
 
 const ButtonBack = () => {
       return (
-            <div className='buttonBack'>
-                  <div style={style.border}>
-                        <i className="fas fa-arrow-left" style={style.arrow}></i>
+            <Link to='/'>
+                  <div className='buttonBack'>
+                        <div style={style.border}>
+                              <i className="fas fa-arrow-left" style={style.arrow}></i>
+                        </div>
                   </div>
-            </div>
+            </Link>
       )
 }
 
