@@ -5,8 +5,12 @@
       text-align: center;
       justify-content: center;
 }
-    
-.home h1{
+ 
+.home-content{
+      z-index: 10;
+}
+
+.home-content h1{
 text-transform: uppercase;
 }
 
@@ -41,6 +45,8 @@ font-size: 20px;
 font-weight: bold;
 }
 
+
+
 @media (max-width: 550px) {
 .card-box{
       height: 80px;
@@ -59,3 +65,4 @@ font-weight: bold;
       margin: 10px 0px ;
 }
 }
+
